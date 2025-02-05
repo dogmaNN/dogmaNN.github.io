@@ -1,0 +1,30 @@
+* {
+    font-family: "Quicksand", serif;
+    margin: 0px;
+    background-color: black;
+}
+
+.menu{
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.menu a{
+    margin: 32px;
+    font-weight: bolder;
+    position: relative;
+    top: 32px;
+}
+
+.helloWorld {
+    color: whitesmoke;
+    text-align: right;
+    padding: 200px;
+}
+
+.helloWorld h1{
+    background: linear-gradient(to right, #e331f0, #1945a3);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
