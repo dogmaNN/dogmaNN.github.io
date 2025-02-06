@@ -1,14 +1,16 @@
 * {
     font-family: "Quicksand", serif;
     margin: 0px;
-    background-color: black;
+    background-color: #1e1e1e;
+    color: whitesmoke;
 }
 
 .menu{
     text-align: center;
     font-size: 20px;
-    color: whitesmoke;
     height: 96px;
+    background-color: black;
+    border-bottom-width: 1px;
 }
 
 .menu a{
@@ -16,22 +18,39 @@
     font-weight: bolder;
     position: relative;
     top: 32px;
+    text-decoration-line: none;
+    background-color: black;
 }
 
 .typewriter{
-    color:whitesmoke;
     margin-top: 24px;
     text-align: center;
 }
 
-.helloWorld {
-    color: whitesmoke;
+.mainTitle {
     text-align: right;
-    padding: 128px;
+    margin: 128px;
 }
 
-.helloWorld h1{
+.mainTitle h1{
     background: linear-gradient(to right, #e331f0, #1945a3);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.contactTitle{
+    text-align: center;
+    margin: 64px;
+}
+
+.contactTitle h1{
+    background: linear-gradient(to right, #e331f0, #1945a3);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*.contact h1{
+    text-align: center;
+    margin: 8px;
+    background-color: whitesmoke;
+}*/
