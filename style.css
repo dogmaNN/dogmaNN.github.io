@@ -22,6 +22,12 @@
     background-color: black;
 }
 
+.menu a:hover{
+    background: linear-gradient(to right, #e331f0, #1945a3);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .typewriter{
     margin-top: 24px;
     text-align: center;
